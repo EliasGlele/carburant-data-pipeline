@@ -33,6 +33,8 @@ Une première étape de préparation sous Excel a permis de rendre le jeu de don
 
 Cette étape a permis d’obtenir un jeu de données propre, structuré et standardisé, prêt à être intégré dans un entrepôt de données.
 
+![Dashboard Looker Studio](./images/Capture d'écran Projet carburant - Jeu de données.png)
+
 ---
 
 ## 🗄️ Étape 2 – Stockage et traitement sur BigQuery
@@ -40,7 +42,7 @@ Une fois nettoyé, le dataset a été importé dans Google BigQuery afin de bén
 
 L’objectif était d’enrichir la base avec des informations calculées, par exemple la distance entre le domicile de référence et chaque station essence, pour déterminer la plus économique à proximité avec la requête suivante :
 
-*(requête SQL à insérer ici)*
+![Dashboard Looker Studio](./images/dashboard.png)
 
 Les résultats obtenus ont ensuite servi de source directe à la visualisation Looker Studio.
 
