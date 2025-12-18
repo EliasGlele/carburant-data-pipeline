@@ -36,7 +36,7 @@ Cette étape a permis d’obtenir un jeu de données propre, structuré et stand
 ---
 
 ## 🗄️ Étape 2 – Stockage et traitement sur BigQuery
-Une fois nettoyé, le dataset a été importé dans Google BigQuery afin de bénéficier d’une infrastructure scalable et d’outils SQL avancés pour l’analyse.
+Une fois nettoyé, le dataset a été importé dans Google BigQuery afin de bénéficier d’une façade exploitable et d’outils SQL avancés pour l’analyse.
 
 L’objectif était d’enrichir la base avec des informations calculées, par exemple la distance entre le domicile de référence et chaque station essence, pour déterminer la plus économique à proximité avec la requête suivante :
 
