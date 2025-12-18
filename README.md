@@ -33,16 +33,24 @@ Une première étape de préparation sous Excel a permis de rendre le jeu de don
 
 Cette étape a permis d’obtenir un jeu de données propre, structuré et standardisé, prêt à être intégré dans un entrepôt de données.
 
-![Dashboard Looker Studio](./images/Capture d'écran Projet carburant - Jeu de données.png)
+
+
+![Nettoyage des données sous Excel](./images/jeu_de_donnees.png)
+
+
 
 ---
 
 ## 🗄️ Étape 2 – Stockage et traitement sur BigQuery
 Une fois nettoyé, le dataset a été importé dans Google BigQuery afin de bénéficier d’une façade exploitable et d’outils SQL avancés pour l’analyse.
 
-L’objectif était d’enrichir la base avec des informations calculées, par exemple la distance entre le domicile de référence et chaque station essence, pour déterminer la plus économique à proximité avec la requête suivante :
+L’objectif était d’enrichir la base avec des informations calculées, par exemple la distance entre le domicile de référence et chaque station essence, pour déterminer la plus économique à proximité avec la requête suivante:
 
-![Dashboard Looker Studio](./images/dashboard.png)
+
+
+![Requête SQL dans BigQuery](./images/analyses_sql.png)
+
+
 
 Les résultats obtenus ont ensuite servi de source directe à la visualisation Looker Studio.
 
@@ -62,6 +70,11 @@ Parmi les éléments clés du dashboard :
 - Un graphique à barres de répartition des prix du SP95
 - Une carte interactive géolocalisant les stations du Var
 - Des filtres permettant à l’utilisateur de sélectionner une ville ou un rayon de distance spécifique
+
+
+![Aperçu du dashboard](./images/dashboard.png)
+
+
 
 L’ensemble a été pensé pour offrir une lecture rapide et orientée décision, dans la logique d’un “Decision Support Dashboard”.
 
